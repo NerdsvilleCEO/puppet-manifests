@@ -1,0 +1,111 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    ast (2.4.0)
+    backport (1.1.2)
+    benchmark (0.1.0)
+    concurrent-ruby (1.1.6)
+    deep_merge (1.2.1)
+    diff-lcs (1.3)
+    e2mmap (0.1.0)
+    facter (4.0.20)
+      hocon (~> 1.3)
+      thor (>= 1.0.1, < 2.0)
+    facterdb (1.2.0)
+      facter
+      jgrep
+    fast_gettext (1.8.0)
+    hiera (3.6.0)
+    hocon (1.3.0)
+    httpclient (2.8.3)
+    jaro_winkler (1.5.4)
+    jgrep (1.5.2)
+    json (2.3.0)
+    locale (2.1.3)
+    maruku (0.7.3)
+    mini_portile2 (2.4.0)
+    multi_json (1.14.1)
+    nokogiri (1.10.9)
+      mini_portile2 (~> 2.4.0)
+    parallel (1.19.1)
+    parser (2.7.1.2)
+      ast (~> 2.4.0)
+    puppet (6.15.0)
+      concurrent-ruby (~> 1.0)
+      deep_merge (~> 1.0)
+      facter (> 2.0.1, < 5)
+      fast_gettext (~> 1.1)
+      hiera (>= 3.2.1, < 4)
+      httpclient (~> 2.8)
+      locale (~> 2.1)
+      multi_json (~> 1.10)
+      puppet-resource_api (~> 1.5)
+      semantic_puppet (~> 1.0)
+    puppet-resource_api (1.8.13)
+      hocon (>= 1.0)
+    rainbow (3.0.0)
+    rake (13.0.1)
+    reverse_markdown (1.4.0)
+      nokogiri
+    rexml (3.2.4)
+    rspec (3.9.0)
+      rspec-core (~> 3.9.0)
+      rspec-expectations (~> 3.9.0)
+      rspec-mocks (~> 3.9.0)
+    rspec-core (3.9.2)
+      rspec-support (~> 3.9.3)
+    rspec-expectations (3.9.1)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.9.0)
+    rspec-mocks (3.9.1)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.9.0)
+    rspec-puppet (2.7.8)
+      rspec
+    rspec-puppet-facts (1.10.0)
+      facter
+      facterdb (>= 0.5.0)
+      json
+      puppet
+    rspec-support (3.9.3)
+    rubocop (0.82.0)
+      jaro_winkler (~> 1.5.1)
+      parallel (~> 1.10)
+      parser (>= 2.7.0.1)
+      rainbow (>= 2.2.2, < 4.0)
+      rexml
+      ruby-progressbar (~> 1.7)
+      unicode-display_width (>= 1.4.0, < 2.0)
+    ruby-progressbar (1.10.1)
+    semantic_puppet (1.0.2)
+    solargraph (0.39.7)
+      backport (~> 1.1)
+      benchmark
+      bundler (>= 1.17.2)
+      e2mmap
+      jaro_winkler (~> 1.5)
+      maruku (~> 0.7, >= 0.7.3)
+      nokogiri (~> 1.9, >= 1.9.1)
+      parser (~> 2.3)
+      reverse_markdown (~> 1.0, >= 1.0.5)
+      rubocop (~> 0.52)
+      thor (~> 1.0)
+      tilt (~> 2.0)
+      yard (~> 0.9, >= 0.9.24)
+    thor (1.0.1)
+    tilt (2.0.10)
+    unicode-display_width (1.7.0)
+    yard (0.9.25)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  rake
+  rspec
+  rspec-puppet
+  rspec-puppet-facts
+  solargraph
+
+BUNDLED WITH
+   1.17.2
